@@ -217,7 +217,7 @@ var sha1 = function(msg) {
     D = H3;
     E = H4;
 
-    for (i = 0; i <= 19; i++) {
+    for (i = 0; i <= 22; i++) {
       temp = (rotate_left(A, 5) + ((B & C) | (~B & D)) + E + W[i] + 0x5A827999) & 0x0ffffffff;
       E = D;
       D = C;

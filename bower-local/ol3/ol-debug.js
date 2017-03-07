@@ -116709,7 +116709,7 @@ ol.source.OSM = function(opt_options) {
     attributions: attributions,
     crossOrigin: crossOrigin,
     opaque: true,
-    maxZoom: options.maxZoom !== undefined ? options.maxZoom : 19,
+    maxZoom: options.maxZoom !== undefined ? options.maxZoom : 22,
     reprojectionErrorThreshold: options.reprojectionErrorThreshold,
     tileLoadFunction: options.tileLoadFunction,
     url: url,
@@ -116798,7 +116798,7 @@ ol.source.MapQuest.TILE_ATTRIBUTION = new ol.Attribution({
  */
 ol.source.MapQuestConfig = {
   'osm': {
-    maxZoom: 19,
+    maxZoom: 22,
     opaque: true,
     attributions: [
       ol.source.MapQuest.TILE_ATTRIBUTION,

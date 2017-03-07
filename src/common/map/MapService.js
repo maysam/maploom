@@ -1334,7 +1334,7 @@
           });
         },
         strategy: ol.loadingstrategy.createTile(new ol.tilegrid.XYZ({
-          maxZoom: 19
+          maxZoom: 22
         })),
         projection: 'EPSG:3857'
       });
